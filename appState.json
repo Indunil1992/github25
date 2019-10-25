@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "github25/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    // add cmnt \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -30,7 +30,16 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "518c7678-8ee9-4ed2-9a91-4fabe302cf88": {
+            "id": "518c7678-8ee9-4ed2-9a91-4fabe302cf88",
+            "name": "Test event",
+            "functionId": "fe89c235-fc5f-4a94-ae62-29ecb1b4accc",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "rootNode": "d7039cc9-b74e-4f52-82d9-d467523a1d86",
@@ -64,7 +73,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1571980390786
+    "lastSave": 1571981768210
   },
   "VCS_STATE": {
     "provider": "GitHub",
