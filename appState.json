@@ -75,12 +75,12 @@
   },
   "PROJECT_META": {
     "projectName": "github25",
-    "projectDescription": "",
+    "projectDescription": "KD",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1571983586070
+    "lastSave": 1571983786083
   },
   "VCS_STATE": {
     "provider": "GitHub",
