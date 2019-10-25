@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d7039cc9-b74e-4f52-82d9-d467523a1d86": {
+        "id": "d7039cc9-b74e-4f52-82d9-d467523a1d86",
+        "parent": null,
+        "name": "github25",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "fe89c235-fc5f-4a94-ae62-29ecb1b4accc"
+        ],
+        "isRemovable": false,
+        "filePath": "github25"
+      },
+      "fe89c235-fc5f-4a94-ae62-29ecb1b4accc": {
+        "id": "fe89c235-fc5f-4a94-ae62-29ecb1b4accc",
+        "parent": "d7039cc9-b74e-4f52-82d9-d467523a1d86",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "github25/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "d7039cc9-b74e-4f52-82d9-d467523a1d86",
+    "openFiles": [
+      "fe89c235-fc5f-4a94-ae62-29ecb1b4accc"
+    ],
+    "currentFileId": "fe89c235-fc5f-4a94-ae62-29ecb1b4accc",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "github25",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1571980390786
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "github25",
+      "url": "https://github.com/Indunil1992/github25"
+    }
+  }
+}
