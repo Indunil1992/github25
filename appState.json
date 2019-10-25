@@ -38,6 +38,13 @@
             "functionId": "fe89c235-fc5f-4a94-ae62-29ecb1b4accc",
             "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
             "eventTemplate": "hello-world"
+          },
+          "92640b14-5d9a-4fd0-aaff-1e7afe8f7456": {
+            "id": "92640b14-5d9a-4fd0-aaff-1e7afe8f7456",
+            "name": "K event",
+            "functionId": "fe89c235-fc5f-4a94-ae62-29ecb1b4accc",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
           }
         }
       }
@@ -73,7 +80,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1571981768210
+    "lastSave": 1571982374704
   },
   "VCS_STATE": {
     "provider": "GitHub",
