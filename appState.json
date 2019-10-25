@@ -95,7 +95,7 @@
       {
         "lambdaId": "all",
         "varKey": "Key1",
-        "varValue": "Val1",
+        "varValue": "Val10",
         "shouldPersist": true,
         "displayOnly": false,
         "editable": true
@@ -112,7 +112,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1571993001616
+    "lastSave": 1571993188604
   },
   "VCS_STATE": {
     "provider": "GitHub",
