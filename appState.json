@@ -45,6 +45,13 @@
             "functionId": "fe89c235-fc5f-4a94-ae62-29ecb1b4accc",
             "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
             "eventTemplate": "hello-world"
+          },
+          "178e2cb8-cc55-42f4-942e-5b90b943377b": {
+            "id": "178e2cb8-cc55-42f4-942e-5b90b943377b",
+            "name": "Test event",
+            "functionId": "fe89c235-fc5f-4a94-ae62-29ecb1b4accc",
+            "event": "{\r\n    \"Records\": [\r\n        {\r\n            \"messageId\": \"19dd0b57-b21e-4ac1-bd88-01bbb068cb78\",\r\n            \"receiptHandle\": \"MessageReceiptHandle\",\r\n            \"body\": \"Hello from SQS!\",\r\n            \"attributes\": {\r\n                \"ApproximateReceiveCount\": \"1\",\r\n                \"SentTimestamp\": \"1523232000000\",\r\n                \"SenderId\": \"123456789012\",\r\n                \"ApproximateFirstReceiveTimestamp\": \"1523232000001\"\r\n            },\r\n            \"messageAttributes\": {},\r\n            \"md5OfBody\": \"7b270e59b47ff90a553787216d55d91d\",\r\n            \"eventSource\": \"aws:sqs\",\r\n            \"eventSourceARN\": \"arn:aws:sqs:us-east-1:123456789012:MyQueue\",\r\n            \"awsRegion\": \"us-east-1\"\r\n        }\r\n    ]\r\n}",
+            "eventTemplate": "sqs-receive-message"
           }
         },
         "customSecurityPolicy": {
@@ -90,7 +97,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1571985087742
+    "lastSave": 1571991573254
   },
   "VCS_STATE": {
     "provider": "GitHub",
