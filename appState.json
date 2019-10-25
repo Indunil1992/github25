@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "github25/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    // add cmnt \n    // // // \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function (event, context, callback) {\n    // add cmnt \n    // // // \n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -75,12 +75,12 @@
   },
   "PROJECT_META": {
     "projectName": "github25",
-    "projectDescription": "KD",
+    "projectDescription": "KDUpdate",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1571983786083
+    "lastSave": 1571983905452
   },
   "VCS_STATE": {
     "provider": "GitHub",
