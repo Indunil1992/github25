@@ -46,6 +46,16 @@
             "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
             "eventTemplate": "hello-world"
           }
+        },
+        "customSecurityPolicy": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Resource": "arn:aws:cloud9:us-east-1:::",
+              "Action": []
+            }
+          ]
         }
       }
     },
@@ -80,7 +90,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1571984839651
+    "lastSave": 1571984954170
   },
   "VCS_STATE": {
     "provider": "GitHub",
